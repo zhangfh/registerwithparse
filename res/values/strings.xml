@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RegisterWithParse</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ui_logo_content_description">Logo</string>
+    <string name="ui_username_input_hint">Username</string>
+    <string name="ui_password_input_hint">Password</string>
+    <string name="ui_login_button_label">Log in</string>
+     <string name="ui_signup_button_label">Sign up</string>
+     <string name="ui_forgot_password_button_label"><u>Forgot password</u></string>
+    <string name="ui_facebook_login_button_label">Log in with Facebook</string>
+    <string name="ui_twitter_login_button_label">Log in with Twitter</string>
+    
+        <string name="ui_no_username_toast">Please enter your username</string>
+    <string name="ui_no_password_toast">Please enter your password</string>
+</resources>

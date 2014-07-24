@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/my_login"
+    >
+
+    <EditText
+        android:id="@+id/login_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/LoginUI.EditText"
+        android:hint="@string/ui_username_input_hint" />
+
+    <EditText
+        android:id="@+id/login_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/LoginUI.EditText"
+        android:layout_marginTop="@dimen/ui_small_vertical_spacing"
+        android:fontFamily="sans-serif"
+        android:hint="@string/ui_password_input_hint"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true" />
+
+    <LinearLayout
+        android:id="@+id/parse_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_large_vertical_spacing">
+
+        <Button
+            android:id="@+id/login_button"
+            style="@style/LoginUI.Button"
+            android:layout_weight="0.5"
+            android:text="@string/ui_login_button_label" />
+
+        <Button
+            android:id="@+id/signup_button"
+            style="@style/LoginUI.Button"
+            android:layout_marginLeft="@dimen/ui_small_horizontal_spacing"
+            android:layout_weight="0.5"
+            android:text="@string/ui_signup_button_label" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_help"
+        style="@style/LoginUI.HelpButton"
+        android:layout_marginTop="@dimen/ui_small_vertical_spacing"
+        android:layout_marginBottom="@dimen/ui_small_vertical_spacing"
+        android:text="@string/ui_forgot_password_button_label" />
+</LinearLayout>
