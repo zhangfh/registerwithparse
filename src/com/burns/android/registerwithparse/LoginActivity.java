@@ -1,6 +1,6 @@
 package com.burns.android.registerwithparse;
 
-import com.burns.android.registerwithparse.MainActivity.PlaceholderFragment;
+
 
 import android.app.Dialog;
 import android.content.SharedPreferences;
@@ -33,6 +33,7 @@ public class LoginActivity extends FragmentActivity {
 	                    .add(R.id.container, new LoginFragment())
 	                    .commit();
 	        }
+
 			return;
 	
     }

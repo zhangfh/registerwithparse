@@ -15,4 +15,10 @@
     
         <string name="ui_no_username_toast">Please enter your username</string>
     <string name="ui_no_password_toast">Please enter your password</string>
+    <string name="ui_user_exist">User has been registered</string>
+    <string name="ui_input_wrong">Wrong parameters</string>
+    <string name="ui_wrong_way">Wrong way, using post </string>
+    <string name="ui_unknown_error">Unknown error</string>
+     <string name="ui_user_no_exist">User doesn\'t exist, please sing up firstly</string>
+     <string name="ui_login_ok">Logging is ok</string>
 </resources>
